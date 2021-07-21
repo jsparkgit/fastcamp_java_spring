@@ -1,4 +1,4 @@
-package ch2;
+package ch02;
 
 public class FunctionTest {
         public static int addNum( int num1, int num2)  {
