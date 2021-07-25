@@ -20,7 +20,4 @@ public class TakeTransTest {
         studentT.showInfo();
 
     }
-
-
-
 }

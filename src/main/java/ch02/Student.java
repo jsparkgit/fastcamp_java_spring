@@ -48,6 +48,11 @@ public class Student {
         this.money -= 1200;
     }
 
+    public void takeTaxi(Taxi taxi) {
+        taxi.take(10000);
+        this.money -= 10000;
+    }
+
 //    public void showStudentInfo() {
 //        System.out.println(studentName + "," + address);
 //    }
@@ -62,5 +67,9 @@ public class Student {
 
     public void showInfo() {
         System.out.println(studentName + "의 남은 돈은" + money + "원 입니다." );
+    }
+
+    public void showTaxiInfo() {
+        System.out.println(studentName + "님의 남은 돈은 " + money + "원 입니다.");
     }
 }
