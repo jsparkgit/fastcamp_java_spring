@@ -13,7 +13,7 @@ public class UserInfoTest {
 
         System.out.println(userLee.showUserInfo());
 
-        UserInfo userKim = new UserInfo("b12345", "0123kskf", "Kim");
+        UserInfo userKim = new UserInfo("b12345", "0123kskf111", "Kim");
 
         System.out.println(userKim.showUserInfo());
 
