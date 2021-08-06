@@ -5,7 +5,7 @@ public class UserInfoTest2 {
     public static void main(String[] args) {
 
         UserInfo userLee = new UserInfo();
-        userLee.userId = "a1234567";
+        userLee.userId = "a12345678";
         userLee.userPassWord = "abcdefg";
         userLee.userName = "Lee";
         userLee.phoneNumber = "01012341234";
