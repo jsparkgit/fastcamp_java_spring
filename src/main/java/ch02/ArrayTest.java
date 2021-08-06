@@ -48,7 +48,7 @@ public class ArrayTest {
             mtotal *= dArr[i];
         }
 
-        System.out.println(mtotal);
+        System.out.println( mtotal );
 
     }
 
