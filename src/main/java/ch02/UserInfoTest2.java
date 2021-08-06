@@ -1,6 +1,6 @@
 package ch02;
 
-public class UserInfoTest {
+public class UserInfoTest2 {
 
     public static void main(String[] args) {
 
