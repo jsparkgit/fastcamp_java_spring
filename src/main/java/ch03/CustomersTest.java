@@ -8,6 +8,7 @@ public class CustomersTest {
         customers.sell();
         customers.sayHello();
 
+        System.out.println();
         Buy buyer = customers;
         buyer.buy();
 
@@ -16,5 +17,10 @@ public class CustomersTest {
 
         buyer.order();
         seller.order();
+
+        System.out.println();
+        ((Buy)buyer).order();
+        ((Sell)seller).order();
+
     }
 }
